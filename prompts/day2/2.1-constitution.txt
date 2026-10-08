@@ -1,0 +1,9 @@
+/speckit-constitution Tạo constitution cho MedBook từ context/boi-canh-chung/10-nguyen-tac-va-rang-buoc.md:
+giữ đủ 8 nguyên tắc I–VIII (không phá hợp đồng 16 endpoint & 14 test cũ; không thêm dependency
+runtime ngoài express/pg; kiến trúc phân lớp route→service→repository, service không gọi
+service; SQL thuần tham số hóa; đổi trạng thái slot trong transaction + khóa dòng + unique index
+làm lớp phòng thủ cuối; mọi business rule có mã + nguồn quyết định, thiếu thì gắn [CẦN XÁC NHẬN]
+chứ không tự bịa; tài liệu trước code sau; kiểm thử suy từ acceptance criteria), cùng ràng buộc
+kỹ thuật bổ sung (Node 20, Express 4, PostgreSQL 16, frontend thuần, lỗi tiếng Việt không lộ SQL,
+seed chạy lại được, kiểm tra quyền sở hữu ở tầng service). Version 1.0.0. Bỏ qua mọi tham chiếu
+tới thư mục WB-2 (không tồn tại ở đây).

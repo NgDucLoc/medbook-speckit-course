@@ -1,0 +1,2 @@
+/speckit-implement Làm tiếp các task: hook sau commit ở hủy lịch và mở lại slot; accept/decline;
+xử lý conflict lịch và race condition khi hai bệnh nhân cùng accept. Dừng sau đợt này. Chạy test bằng biến DATABASE_URL đã đặt sẵn.

@@ -1,0 +1,14 @@
+/speckit-clarify
+
+Bạn đang chạy ở chế độ không tương tác; Human không thể trả lời từng câu. Đây là các QUYẾT ĐỊNH CỦA HUMAN, hãy dùng làm câu trả lời cho mọi câu hỏi liên quan và ghi vào mục Clarifications (không hỏi lại những mục đã có đáp án):
+- Thời gian phản hồi X = 15 phút, cấu hình bằng biến môi trường OFFER_TTL_MINUTES.
+- Mức ưu tiên y tế: 3 mức urgent > high > normal; nhân viên gán khi thêm bệnh nhân vào danh sách chờ.
+- Thứ tự chọn: ưu tiên y tế giảm dần → thời gian vào danh sách chờ tăng dần → id tăng dần. Không random, không FIFO thuần.
+- Phù hợp: cùng chuyên khoa với slot; nếu bệnh nhân chọn bác sĩ cụ thể thì phải đúng bác sĩ đó.
+- Kích hoạt: chỉ khi slot về available do hủy lịch hoặc nhân viên mở lại slot. Slot mới tạo / seed không kích hoạt.
+- Lịch trùng giờ: bệnh nhân đã có lịch trùng giờ thì bỏ qua, xét người kế tiếp.
+- Kênh thông báo: trong ứng dụng (bệnh nhân polling GET /api/my-offers); không SMS/email.
+- Từ chối / hết hạn: chuyển người kế tiếp; bệnh nhân từ chối không được đề xuất lại đúng slot đó; hết hạn xử lý bằng sweeper quét định kỳ.
+- Lead time tối thiểu: không tạo đề xuất nếu slot bắt đầu trong dưới 30 phút.
+- Hết hàng chờ: slot giữ available bình thường.
+Hãy hoàn tất toàn bộ vòng clarify trong một lượt.

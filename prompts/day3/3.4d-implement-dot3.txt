@@ -1,0 +1,3 @@
+/speckit-implement Làm tiếp: sweeper timeout (setInterval, đọc DB mỗi lượt, cấu hình bằng env),
+endpoint waiting-list và my-offers, giao diện tối thiểu (staff thêm bệnh nhân vào danh sách chờ;
+bệnh nhân thấy thẻ đề xuất có đếm ngược, nút chấp nhận/từ chối). Chạy test bằng biến DATABASE_URL đã đặt sẵn.

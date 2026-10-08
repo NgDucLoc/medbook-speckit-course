@@ -1,0 +1,12 @@
+/speckit-plan Ngăn xếp cố định theo constitution: Node 20, Express 4, PostgreSQL 16, SQL thuần,
+frontend thuần, KHÔNG thêm dependency runtime. Trong research.md hãy đánh giá ít nhất 3 phương
+án kiến trúc cho Offer Engine: (A) xử lý đồng bộ trong appointmentService/slotService,
+(B) Offer Engine in-process, DB là nguồn sự thật, sweeper setInterval quét offer hết hạn,
+(C) message broker + worker riêng. Với mỗi phương án: cách tiếp cận, component thêm/sửa trên
+codebase hiện có, trade-off (performance, complexity, maintainability, scalability, độ tin cậy,
+rollback) trong ma trận có trọng số. CHỌN phương án B và giải thích (A không xử lý được timeout;
+C vi phạm ràng buộc dependency và "một lệnh chạy"). Ghi điều kiện khi nào nên chuyển sang C.
+Thiết kế: AppointmentOffer là entity độc lập (không phải trạng thái của appointments); Offer
+Engine gọi SAU commit và NGOÀI transaction của service gọi nó; không giữ state trong bộ nhớ;
+chỉ gọi xuống repository; thông báo in-app qua GET /api/my-offers. Sinh data-model.md,
+contracts/ (endpoint mới, KHÔNG sửa endpoint cũ), quickstart.md.

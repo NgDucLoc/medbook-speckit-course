@@ -1,0 +1,4 @@
+/speckit-implement Chỉ làm các task migration, repository và Offer Engine (matching + tạo offer)
+trong tasks.md. Viết code cùng style/convention codebase hiện có (xem doc/backend-flows.md và
+src/services/appointmentService.js). Tuân thủ constitution: SQL tham số hóa, transaction + khóa
+dòng, không thêm dependency. Đánh dấu [X] task đã xong. Dừng sau đợt này để tôi review.

@@ -1,0 +1,7 @@
+Đây là yêu cầu thô (từ context/yeu-cau-chuc-nang-moi.md, mục "Yêu cầu mới"
+). Ghi bai-nop/day2/01-clarification-questions.md: (1) điều gì còn mơ hồ, (2) điều
+gì còn thiếu, (3) edge case chưa được đề cập, (4) ÍT NHẤT 8 câu hỏi clarification cho
+stakeholder, mỗi câu có: lý do quan trọng, ai nên trả lời, phương án mặc định đề xuất. Ví dụ
+gợi ý chủ đề: X phút là bao nhiêu; "ưu tiên y tế" ai gán, mấy mức; slot mới tạo có kích hoạt
+không; bệnh nhân có lịch trùng giờ; hai slot trống cùng lúc; bệnh nhân từ chối có được vào lại
+hàng chờ; thông báo kênh nào. KHÔNG tự trả lời — chỉ hỏi.

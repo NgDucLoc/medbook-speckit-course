@@ -1,0 +1,1 @@
+/speckit-checklist Pre-merge cho mã do AI sinh của waiting list, dựa trên constitution v1.1.0.

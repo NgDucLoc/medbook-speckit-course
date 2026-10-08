@@ -1,0 +1,4 @@
+/speckit-tasks Chia theo user story để mỗi story có thể kiểm thử độc lập. Thứ tự: migration +
+repository → Offer Engine (matching, tạo offer) → hook sau commit ở hủy lịch / mở lại slot →
+accept/decline + xử lý conflict → sweeper timeout → API my-offers/waiting-list → giao diện.
+Mỗi task có đường dẫn file và trỏ về AC tương ứng. Có task test cho từng AC, gồm test đồng thời.

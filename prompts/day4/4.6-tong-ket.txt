@@ -1,0 +1,2 @@
+Tạo bai-nop/day4/README.md: checklist cuối ngày (7 mục đề Day 4) ✅/❌ + dẫn chứng; trả lời
+trong 5 dòng: lỗi này là lỗi AI hay lỗi process, vì sao.

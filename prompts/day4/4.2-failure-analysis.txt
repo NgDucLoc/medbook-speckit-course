@@ -1,0 +1,7 @@
+Dùng bai-nop/day2/02-ai-errors-log.md, spec.md (AC), tests/waitlist.test.js, bai-nop/day3/04-code-review-report.md
+và kết quả 4.1. Ghi bai-nop/day4/01-failure-analysis-report.md: timeline sự cố; truy từng bước
+Day 2→3: requirement mơ hồ ở đâu, test thiếu ở đâu, review bước nào đáng lẽ phải bắt được (dẫn
+file:dòng/ID AC); phân loại nguyên nhân gốc vào 5 nhãn (Spec sai/thiếu · AI sinh sai · Test thiếu ·
+Review bỏ sót · Process không có checkpoint) với tỉ trọng; kết luận đây là lỗi AI hay lỗi
+Human-AI process và vì sao; risk assessment nếu không phát hiện sớm; bài học. Mọi kết luận phải
+có bằng chứng; chỗ không chắc ghi [CẦN XÁC NHẬN].

@@ -1,0 +1,5 @@
+Ghi bai-nop/day4/02-human-ai-review-workflow.md: checkpoint còn thiếu trong các bước trước; workflow
+review mới có ≥ 3 validation checkpoint (ai review gì, khi nào, tiêu chí); phân biệt rõ chỗ
+nào Human-in-the-loop (review từng output) và chỗ nào Human-on-the-loop (batch/trigger); chỉ rõ
+checkpoint nào là HARD GATE chặn merge. Ánh xạ mỗi checkpoint sang lệnh Spec-Kit tương ứng
+(/speckit-analyze, /speckit-checklist, /speckit-converge…). Sơ đồ Mermaid.

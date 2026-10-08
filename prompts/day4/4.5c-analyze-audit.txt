@@ -1,0 +1,2 @@
+/speckit-analyze Tập trung: AC nào chưa có test; chỗ nào code làm khác spec; business rule nào
+thiếu nguồn quyết định.

@@ -1,0 +1,3 @@
+/speckit-specify cập nhật spec.md hiện có: áp dụng các mục tôi đã đồng ý trong
+bai-nop/day2/02-ai-errors-log.md (đánh dấu mục nào là "Accepted"). Không thêm business rule mới
+ngoài những gì đã chốt ở phần Clarifications; nếu thiếu thì để [NEEDS CLARIFICATION].

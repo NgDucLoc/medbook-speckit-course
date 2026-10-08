@@ -1,0 +1,5 @@
+Tổng hợp từ plan.md, research.md, data-model.md, contracts/ vào bai-nop/day2/04-architecture-blueprint.md:
+sơ đồ kiến trúc high-level (Mermaid), danh sách component THÊM / SỬA trên codebase MedBook hiện
+có (đường dẫn file cụ thể), quyết định công nghệ, trade-off analysis, rủi ro chính (đặc biệt
+đồng thời: hai người cùng accept, sweeper chạy song song) và cách giảm. Chỉ tổng hợp, không bịa
+thêm quyết định mới.

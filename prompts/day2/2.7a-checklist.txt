@@ -1,0 +1,3 @@
+/speckit-checklist Chất lượng yêu cầu của waiting list: đầy đủ, rõ ràng, nhất quán, đo được; tập
+trung vào luật chọn ứng viên, vòng đời offer (pending/accepted/declined/expired), đồng thời,
+thông báo, quyền sở hữu dữ liệu.

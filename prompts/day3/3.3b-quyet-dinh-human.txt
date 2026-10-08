@@ -1,0 +1,8 @@
+Quyết định của Human cho MỌI mục checklist còn mở (áp theo chủ đề, không theo mã mục):
+- SLA/độ trễ: không cam kết SLA cứng; bệnh nhân thấy đề xuất ở lần polling kế tiếp, sweeper xử lý hết hạn trong tối đa 60 giây.
+- Lịch sử từ chối/hết hạn cho nhân viên: KHÔNG làm (ngoài phạm vi).
+- Trạng thái "đã đọc/chưa đọc" của đề xuất: KHÔNG làm; danh sách đề xuất sắp theo thời gian mới nhất trước là đủ.
+- Bệnh nhân đang giữ một đề xuất chờ phản hồi trùng giờ với slot mới: KHÔNG tạo đề xuất mới cho họ.
+- Chỉ số đo theo thời gian (ví dụ tỉ lệ lấp slot): đo theo tuần (7 ngày gần nhất), là chỉ số vận hành, không build trong phạm vi này.
+- Mọi mục khác còn mở: chọn phương án đơn giản nhất, không thêm business rule mới ngoài mục Clarifications.
+Ghi các quyết định vào mục Clarifications của spec.md (thêm FR + task + test nếu cần), rồi tick các mục checklist tương ứng.

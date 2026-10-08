@@ -1,0 +1,3 @@
+Tạo bai-nop/day3/01-development-package.md (API mới, quyết định implementation chính,
+file đã thêm/sửa, cách chạy) và bai-nop/day3/README.md (checklist cuối ngày đề Day 3 ✅/❌ +
+dẫn chứng; ghi lại: AI sinh đúng gì, cần sửa gì, vì sao).

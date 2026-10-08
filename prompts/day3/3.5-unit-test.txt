@@ -1,0 +1,7 @@
+Đọc AC trong spec.md và các task test trong tasks.md. Viết test (node --test, cùng style
+tests/api.test.js) trong tests/waitlist.test.js: mỗi test có comment "AC-x.y" trỏ về tiêu chí.
+Phủ: happy path (có ứng viên và accept), edge case (hàng chờ trống, tất cả từ chối, lịch trùng,
+slot < 30 phút, hết hạn), timeout, và test ĐỒNG THỜI (hai bệnh nhân accept cùng lúc → đúng 1
+thành công). Chạy `npm test`. Ghi bai-nop/day3/03-testing-package.md: bảng AC → test (còn AC
+nào chưa có test?), test pass/fail và nguyên nhân, test nào AI viết đúng, test nào phải sửa và
+vì sao, báo cáo coverage (`node --test --experimental-test-coverage tests/*.test.js`).

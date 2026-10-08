@@ -1,0 +1,7 @@
+Review diff của nhánh feature/waitlist so với main (git diff main). Chỉ ra: (1) code quality
+(naming, độ phức tạp, trùng lặp); (2) bug/logic error tiềm ẩn; (3) lỗ hổng bảo mật — đặc biệt
+SQL injection, kiểm tra QUYỀN SỞ HỮU offer (bệnh nhân A có accept được offer của B không?),
+race condition khi nhiều bệnh nhân nhận cùng slot, sweeper chạy chồng; (4) điểm có thể thành vấn
+đề hiệu năng khi lớn. Đối chiếu từng nguyên tắc I–VIII. Ghi bai-nop/day3/04-code-review-report.md:
+≥ 3 issue, mỗi issue có severity (Critical/Major/Minor), file:dòng, đề xuất, và phân loại FIX NOW
+hay TECH DEBT kèm lý do. Nêu rõ cả những gì bạn KHÔNG chắc hoặc không kiểm tra được.

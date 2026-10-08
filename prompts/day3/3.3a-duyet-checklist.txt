@@ -1,0 +1,1 @@
+Duyệt checklist specs/001-waiting-list/checklists/offer-engine.md: với từng mục, đối chiếu spec.md/plan.md/data-model.md/contracts và đánh dấu [x] nếu yêu cầu ĐÃ đạt (ghi chú ngắn nơi có bằng chứng). Mục nào chưa đạt: giữ [ ] và sửa spec/plan nếu là thiếu sót nhỏ rồi mới tick; nếu cần quyết định của Human thì để [ ] và liệt kê cho tôi. Không tick bừa.

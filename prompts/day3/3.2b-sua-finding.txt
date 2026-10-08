@@ -1,0 +1,1 @@
+Sửa tất cả finding CRITICAL và HIGH trong báo cáo /speckit-analyze vừa rồi, CHỈ bằng cách cập nhật spec.md / plan.md / tasks.md (Nguyên tắc VII: tài liệu trước, code sau; KHÔNG sửa code ở bước này). Với mỗi finding đã sửa, nói rõ file và mục đã đổi; finding MEDIUM/LOW chỉ liệt kê, chưa sửa. Không thêm business rule mới ngoài những gì đã chốt ở Clarifications.

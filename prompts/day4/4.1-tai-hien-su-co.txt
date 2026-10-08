@@ -1,0 +1,5 @@
+Đóng vai AI-Assisted Auditor, KHÔNG sửa code. Với 2 triệu chứng: (a) bệnh nhân nhận đề xuất từ
+bác sĩ/chuyên khoa sai; (b) bệnh nhân nhận đề xuất lặp dù đã có lịch trùng giờ — viết thử các
+test thăm dò trong tests/probe-day4.test.js (không commit vào bộ test chính) để xem code hiện
+tại có tái hiện không. Báo cáo trung thực: tái hiện được / không tái hiện được / không kết luận
+được, kèm file:dòng và đầu ra test. Không kết luận "an toàn" nếu không có bằng chứng.

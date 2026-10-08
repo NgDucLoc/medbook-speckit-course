@@ -1,0 +1,10 @@
+/speckit-specify Quản lý linh hoạt danh sách chờ (waiting list) cho MedBook. Hiện hệ thống
+không có cơ chế nào khi một khung giờ khám trống đột ngột; nhân viên phải gọi/nhắn từng bệnh
+nhân. Tính năng mới: khi một slot trở nên khả dụng (do hủy lịch hoặc nhân viên mở lại slot),
+hệ thống tự xác định bệnh nhân phù hợp nhất trong danh sách chờ theo mức ưu tiên y tế, thời
+gian chờ và sự phù hợp chuyên khoa/bác sĩ; gửi đề xuất cho bệnh nhân; bệnh nhân phản hồi trong
+X phút; nếu từ chối hoặc không phản hồi thì chuyển sang bệnh nhân kế tiếp; xử lý xung đột lịch;
+thông báo đầy đủ cho các bên (bệnh nhân, nhân viên). Vai trò: bệnh nhân (patient), nhân viên
+(staff). Cần ít nhất 3 user story chính + acceptance criteria Given-When-Then (happy path và
+edge case: danh sách chờ trống, tất cả từ chối, hết hạn, xung đột lịch, hai người cùng nhận).
+Giữ nguyên mọi hành vi hiện có của MedBook; tuân thủ constitution.

@@ -1,0 +1,6 @@
+Đọc specs/001-*/spec.md. Review như một Requirement Reviewer: (1) mỗi user story có đủ
+role/action/benefit và AC Given-When-Then không; (2) happy path vs edge case có đủ không; (3)
+liệt kê những chỗ AI (spec bạn vừa sinh) viết SAI hoặc THIẾU so với context/boi-canh-chung
+(đặc biệt luật sẵn có HT-BR và khoảng trống HT-GAP-03: hệ thống chưa chống đặt trùng giờ).
+Ghi bai-nop/day2/02-ai-errors-log.md: mỗi dòng = lỗi/thiếu, vì sao, mức độ, đã sửa chưa.
+File này sẽ dùng làm bằng chứng ở Day 4. Chưa sửa spec.md.

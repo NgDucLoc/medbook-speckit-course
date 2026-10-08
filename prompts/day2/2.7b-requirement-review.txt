@@ -1,0 +1,5 @@
+Review toàn bộ spec.md + plan.md + data-model.md + contracts/ + checklists/. Ghi
+bai-nop/day2/03-requirement-review-notes.md: (1) user story/AC nào mâu thuẫn nhau; (2) gap;
+(3) đối chiếu kiến trúc đã chọn: yêu cầu nào khó/không khả thi; (4) kiểm tra từng nguyên tắc
+I–VIII của constitution có bị vi phạm không. Với mỗi phát hiện: mức độ và đề xuất sửa. Sau đó
+sửa spec.md/plan.md cho những phát hiện mức Critical/High, ghi rõ đã sửa gì.

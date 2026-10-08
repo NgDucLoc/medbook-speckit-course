@@ -1,0 +1,3 @@
+/speckit-constitution Nâng lên v1.1.0: thêm mục "Governance cho mã do AI sinh" từ 3 hard-gate
+trong bai-nop/day4/02-human-ai-review-workflow.md và 5 mục quan trọng nhất của
+bai-nop/day4/03-ai-governance-checklist.md. Ghi Sync Impact Report. Không đổi nguyên tắc I–VIII.

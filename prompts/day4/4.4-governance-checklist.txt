@@ -1,0 +1,5 @@
+Ghi bai-nop/day4/03-ai-governance-checklist.md: ≥ 8 mục, phân theo loại risk (hallucination,
+security, incomplete output, over-reliance); mỗi mục có: câu kiểm chứng được (Yes/No), mitigation,
+người chịu trách nhiệm, cách kiểm chứng (lệnh/file). Phải đủ cụ thể để dùng trước khi merge
+code do AI sinh vào main. Ví dụ mục: "mọi AC đều có test trỏ về", "không có dependency runtime
+mới", "không business rule nào thiếu mã nguồn quyết định".
